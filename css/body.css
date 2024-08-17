@@ -1,0 +1,199 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background-color: rgb(10, 10, 10);
+	height: 98vh;
+	margin: 1%;
+	}
+	
+	/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+	transition: margin-left .5s; /* If you want a transition effect */
+	background-color: #444;
+	border : black 3px solid;
+	height: 90%;
+	text-align: center;
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#userPage {
+	transition: margin-left .5s; /* If you want a transition effect */
+	background-color: #444;
+	border : black 3px solid;
+	height: 90%;
+	text-align: center;
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;	
+	}
+
+
+/* The sidebar menu */
+.sidebar {
+	height: 100%; /* 100% Full-height */
+	width: 0; /* 0 width - change this with JavaScript */
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Stay on top */
+	top: 0;
+	left: 0;
+	background-color: #111; /* Black*/
+	overflow-x: hidden; /* Disable horizontal scroll */
+	padding-top: 60px; /* Place content 60px from the top */
+	transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+  }
+  
+  /* The sidebar links */
+  .sidebar a {
+	padding: 8px 8px 8px 32px;
+	text-decoration: none;
+	font-size: 25px;
+	color: #028afa;
+	display: block;
+	transition: 0.3s;
+	
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidebar a:hover {
+	color: #f1f1f1;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidebar .closebtn {
+	position: absolute;
+	top: 0;
+	right: 25px;
+	font-size: 36px;
+	margin-left: 50px;
+  }
+  
+  /* The button used to open the sidebar */
+  .openbtn {
+	position: absolute;
+	bottom: 50%;	
+	font-size: 25px;
+	cursor: pointer;
+	background-color: #111;
+	color: white;
+	padding: 10px 15px;
+	border: none;
+	height: 150px;
+	
+  }
+  
+  .openbtn:hover {
+	background-color: #444;
+  }
+  #footer{
+	border: #111 3px solid;
+	background-color: #028afa;	
+	text-align: center;		
+	transition: margin-left .5s;
+	height: 10%;
+	padding: 5px;
+  }
+  .forms{
+	display: inline-block;	
+	text-align: right;
+	padding-right: 10px;
+  }
+  
+ 	a {	
+	text-decoration: none;	
+	color: #028afa;	
+	transition: 0.3s;
+	padding: 10px;
+	
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  a:hover {
+	color: #f1f1f1;
+  }
+  input[type="button"]{
+	padding: 10px;
+	background-color: #444;
+	color:#028afa;
+	border: none;
+	font-size: medium;
+	transition: 0.3s;
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  }
+  input[type="button"]:hover{
+	color: #f1f1f1;
+  }
+ input{
+	margin-top: 10px;
+	margin-bottom: 10px;
+ }
+ .options{
+	float:left;
+	margin: 20px;
+ }
+ input[type="submit"]{
+	padding: 10px;
+	background-color: #444;
+	color:#028afa;
+	border: none;
+	font-size: medium;
+	transition: 0.3s;
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+   }
+   input[type="submit"]:hover{
+	color: #f1f1f1;
+  }
+  table{
+	margin: 10px;
+  }
+  .tableL{
+	margin-left: auto;
+	margin-right: auto;
+  }
+  .autocomplete {
+	/*the container must be positioned relative:*/
+	position: relative;
+	display: inline-block;
+}
+.autocomplete-items {
+	position: absolute;
+	border: 1px solid #d4d4d4;
+	border-bottom: none;
+	border-top: none;
+	z-index: 99;
+	/*position the autocomplete items to be the same width as the container:*/
+	top: 50%;
+	left: 0;
+	right: 0;
+	}
+	.autocomplete-items div {
+	padding: 10px;
+	cursor: pointer;
+	background-color: #fff;
+	border-bottom: 1px solid #d4d4d4;
+	}
+	.statuspic{
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+	}
+	.avatar{
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	
+	}
+	.profile{
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	}
+	.avabut{
+		border-style: none;
+		border-radius: 10%;
+		background-color: #444;
+		margin:10px;
+	}
+	.avabut:hover{
+		background-color: #f1f1f1;
+	  }
